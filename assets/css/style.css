@@ -73,7 +73,7 @@ textarea {
 .list-item{
   height: 100px;
   /* background-color: gray; */
-  justify-content: space-around;
+  /* justify-content: space-around; */
   display: flex;
 }
 
@@ -91,7 +91,7 @@ ol li{
 .time-div{
   /* display: flex; */
   /* background-color:white; */
-  width:20%;
+  width:10%;
   float:left;
   text-align: right;
   padding: 10px 10px;
@@ -100,19 +100,24 @@ ol li{
 .input-div{
   /* display: flex; */
   /* background-color:blue; */
-  width: 60%;
+  width: 80%;
 }
 
 .button-div{
   /* display: flex; */
   /* background-color:red; */
-  width:20%;
+  width:10%;
+  height: 100%;
   float:right;
+  display:flex;
+  justify-content: center;
 }
 
 img, .saveBtn{
-  width:100%;
-height:100%;
+  /* align-self: right; */
+  height: 100%; width: 100%; object-fit: contain;
+  /* width:auto; */
+/* height:100%; */
 /* float:right; */
 }
 
