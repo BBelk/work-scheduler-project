@@ -79,6 +79,7 @@ textarea {
 
 ol li{
   list-style-type: none;
+  padding:5px;
 }
 
 .list-item div{
